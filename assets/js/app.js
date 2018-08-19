@@ -165,8 +165,8 @@ var ParticlePool = (function() {
     // get point on heart with -PI <= t <= PI
     function pointOnHeart(t) {
         return new Point(
-            160 * Math.pow(Math.sin(t), 3),
-            130 * Math.cos(t) - 50 * Math.cos(2 * t) - 20 * Math.cos(3 * t) - 10 * Math.cos(4 * t) + 25
+            120 * Math.pow(Math.sin(t), 3),
+            90 * Math.cos(t) - 50 * Math.cos(2 * t) - 20 * Math.cos(3 * t) - 10 * Math.cos(4 * t) + 25
         );
     }
 
